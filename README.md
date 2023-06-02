@@ -30,3 +30,47 @@ Um die vier Farbstufen nach innen zu erzeugen, verwenden wir verschiedene CSS-Ei
 <li>padding: Wir verwenden einen Innenabstand (Padding) von 40px, um den Abstand zwischen dem Rahmen und dem Inhalt des Rechtecks zu definieren.</li>
 <li>background-clip: Diese Eigenschaft legt fest, wie der Hintergrund über die Padding-Bereiche hinaus angezeigt wird. Durch die Verwendung des Werts "padding-box" wird der Hintergrund nur innerhalb des Padding-Bereichs angezeigt, was zu den gewünschten vier Farbstufen führt.<li>
 </ol>
+
+---
+
+#### T2: Web-Publishing
+
+**Übung 1**
+Um ein Webhosting auf bplaced.net oder einem anderen kostenlosen Dienst zu erstellen und eine Webseite manuell zu veröffentlichen, gehe ich wie folgt vor:
+
+<ol>
+<li>
+Besuche die Webseite von bplaced.net und melde dich für ein kostenloses Konto an.</li>
+<li>
+Nach der Anmeldung findest du auf der bplaced.net Hilfe-Seite Informationen zu den FTP-Einstellungen. Schaue dort nach, wie du auf dein Hosting-Konto zugreifen kannst.</li>
+<li>
+Lade einen FTP-Client wie FileZilla herunter und installiere ihn auf deinem Computer.</li>
+<li>
+Öffne den FTP-Client und gib die FTP-Einstellungen ein, die du auf der bplaced.net Hilfe-Seite gefunden hast. Dies beinhaltet normalerweise die Serveradresse, den Benutzernamen, das Passwort und den Port.</li>
+<li>
+Verbinde dich mit dem FTP-Server, indem du auf "Verbinden" klickst.</li>
+<li>
+Nachdem du erfolgreich verbunden bist, kannst du deine Webseite auf den Server hochladen. Stelle sicher, dass du die Dateien und Ordner entsprechend der Verzeichnisstruktur deiner Webseite organisierst.</li>
+<li>
+Warte, bis der Upload abgeschlossen ist, und überprüfe dann die URL deiner Webseite, um sicherzustellen, dass sie korrekt funktioniert.</li>
+<li>
+Wenn du Änderungen an deiner Webseite vornehmen möchtest, kannst du die entsprechenden Dateien bearbeiten und sie erneut auf den Server hochladen, um die Aktualisierungen zu veröffentlichen.</li>
+</ol>
+
+**Übung 2**
+Um den Publishing-Vorgang zu automatisieren und eine Batch/Bash/Exe-Datei zu erstellen, ging ich wie folgt vor:
+
+<ol>
+<li>
+Wähle ein geeignetes Tool für die Automatisierung des Publishing-Vorgangs, z.B. WinSCP, FileZilla oder Cyberduck, das SFTP oder FTPS unterstützt.</li>
+<li>
+Erstelle eine Konfigurationsdatei für das Tool mit Servername, Port, Benutzername, Passwort, lokalem Pfad und Remote-Pfad.</li>
+<li>
+Erstelle eine Batch-, Bash- oder Exe-Datei und füge den Konfigurationsteil hinzu, um die Einstellungen festzulegen.</li>
+<li>
+Füge dem Skriptteil den Code hinzu, der die Dateien vom lokalen Pfad auf den Webserver hochlädt, z.B. mit dem Befehl "put".</li>
+<li>
+Speichere die Datei mit einem passenden Namen, z.B. "publish.bat" oder "publish.sh".</li>
+<li>
+Führe die Datei aus, indem du darauf doppelklickst oder das entsprechende Kommando in der Befehlszeile ausführst, um die Webseite automatisch zu veröffentlichen.</li>
+</ol>

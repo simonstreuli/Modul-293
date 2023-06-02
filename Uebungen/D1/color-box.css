@@ -1,0 +1,29 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#outer {
+  background-color: red;
+  height: 100%;
+}
+
+#border {
+  background-color: orange;
+  border: 50px solid;
+  height: calc(100% - 100px);
+  margin: 25px;
+}
+
+#padding {
+  background-color: yellow;
+  padding: 50px;
+  height: calc(100% - 100px);
+}
+
+#content {
+  background-color: green;
+  height: 100%;
+}

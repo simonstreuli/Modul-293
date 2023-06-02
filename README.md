@@ -74,3 +74,5 @@ Speichere die Datei mit einem passenden Namen, z.B. "publish.bat" oder "publish.
 <li>
 Führe die Datei aus, indem du darauf doppelklickst oder das entsprechende Kommando in der Befehlszeile ausführst, um die Webseite automatisch zu veröffentlichen.</li>
 </ol>
+
+---

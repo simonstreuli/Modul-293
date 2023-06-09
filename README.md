@@ -74,3 +74,11 @@ Speichere die Datei mit einem passenden Namen, z.B. "publish.bat" oder "publish.
 <li>
 Führe die Datei aus, indem du darauf doppelklickst oder das entsprechende Kommando in der Befehlszeile ausführst, um die Webseite automatisch zu veröffentlichen.</li>
 </ol>
+
+---
+
+#### D2:Layouts mit css
+
+**Übung 1**
+Bei CSS Grid arbeitet man mit Zeilen und Spalten und erzeugt auf diese Weise ein Raster. Innerhalb des Rasters lassen sich die einzelnen Objekte anordnen. 
+

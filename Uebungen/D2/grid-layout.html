@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .item1 {
+        grid-area: header;
+      }
+      .item2 {
+        grid-area: menu;
+      }
+      .item3 {
+        grid-area: film1;
+      }
+      .item4 {
+        grid-area: film2;
+      }
+      .item5 {
+        grid-area: footer;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-areas:
+          "header header header header header "
+          "menu film1 film1 film2 film2"
+          "menu footer footer footer footer ";
+        gap: 10px;
+        background-color: #ff0000;
+        padding: 10px;
+      }
+
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 255);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Grid Layout</h1>
+
+    <p>Dieser grid layout beinhaltet 6 columns und 3 rows:</p>
+
+    <div class="grid-container">
+      <div class="item1">Header</div>
+      <div class="item2">Menu</div>
+      <div class="item3">Film 1</div>
+      <div class="item4">Film 2</div>
+      <div class="item5">Footer</div>
+    </div>
+  </body>
+</html>

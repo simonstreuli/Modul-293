@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  color: black;
+  font-family: "M PLUS 1", sans-serif;
+  background-image: url(./model-s.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.desktop {
+  display: initial;
+}
+
+header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 5px 20px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+a.logo {
+  height: 12px;
+  width: 100px;
+  color: inherit;
+}
+
+header a {
+  color: inherit;
+}
+
+header nav.center {
+  text-align: center;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+header nav.right {
+  text-align: right;
+}
+
+.header-text {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.header-text h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.header-text p {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 60px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.demo-button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 10px 30px;
+  transition: background-color 0.3s ease;
+}
+
+.demo-button:hover {
+  background-color: white;
+  color: black;
+  border-color: white;
+}

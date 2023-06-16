@@ -4,4 +4,10 @@ Unser Projekt besteht darin, eine Unternehmenswebsite zu entwickeln, die Produkt
 
 ## Wireframes
 
-<
+<img src="./images/wireframe-homepage.jpg" width=50%/>
+<br/>
+<img src="./images/wireframe-about.jpg" width=50%/>
+<br/>
+<img src="./images/wireframe-productpage.jpg" width=50%/>
+
+## Design

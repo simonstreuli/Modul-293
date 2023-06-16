@@ -11,3 +11,11 @@ Unser Projekt besteht darin, eine Unternehmenswebsite zu entwickeln, die Produkt
 <img src="./images/wireframe-productpage.jpg" width=50%/>
 
 ## Design
+
+**Logo**
+
+<img src="./images/logo.jpg" width=50%/>
+
+**Farben**
+
+<img src="./images/colors.jpg" width=50%/>

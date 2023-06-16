@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Product Page</title>
+    <style>
+      body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        min-height: 100vh;
+        margin: 0;
+        padding: 20px;
+        gap: 20px;
+      }
+
+      header,
+      footer {
+        grid-row: 1;
+      }
+
+      main {
+        grid-row: 2;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+      }
+
+      .product-details {
+        border: 1px solid #ddd;
+        padding: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation, logo, etc. -->
+      <h1>Header</h1>
+    </header>
+
+    <main>
+      <div class="product-details">
+        <!-- Product 1 details -->
+      </div>
+
+      <div class="product-details">
+        <!-- Product 2 details -->
+      </div>
+
+      <div class="product-details">
+        <!-- Product 1 details -->
+      </div>
+
+      <div class="product-details">
+        <!-- Product 2 details -->
+      </div>
+    </main>
+
+    <footer>
+      <!-- Footer content -->
+      <h3></h3>
+    </footer>
+  </body>
+</html>

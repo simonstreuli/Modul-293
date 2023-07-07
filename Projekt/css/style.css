@@ -1,0 +1,227 @@
+.navbar {
+  width: 100%;
+  margin: auto;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+h3 {
+  font-family: sans-serif;
+  color: white;
+}
+.bg-light {
+  background-color: #343a40;
+}
+
+body {
+  margin-top: 50px;
+}
+
+#unserteam {
+  position: relative;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.newarrival {
+  background: green;
+  width: 50px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.col-md-7 h2 {
+  color: #555;
+}
+.price {
+  color: #343a40;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+input {
+  border: 1px solid #ccc;
+  font-weight: bold;
+  height: 33px;
+  text-align: center;
+  width: 30px;
+}
+
+.cart {
+  color: #343a40;
+  font-size: 15px;
+  margin-left: 20px;
+}
+#price {
+  background-color: #eee;
+}
+
+.aprice {
+  text-decoration: none;
+  color: black;
+}
+.aprice:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#bodyhome {
+  background-image: url("../images/tablette.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding-top: 50px;
+}
+
+#unserteamtext {
+  padding-top: 25px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 90%, 90%;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+details {
+  position: relative;
+  text-align: left;
+  left: auto;
+  top: auto;
+}
+
+.tdetails {
+  padding-bottom: 150px;
+}
+#wbutton {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#logodiv {
+  display: flex;
+  background-color: #343a40;
+}
+
+.testimonials {
+  padding: 40px 0;
+  background: #f1f1f1;
+  color: #434343;
+  text-align: center;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.border {
+  width: 160px;
+  height: 5px;
+  background: #6ab04c;
+  margin: 26px auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col {
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonials img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.stars {
+  color: #6ab04c;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-widht: 960px) {
+  .col {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+#contactus {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.footernavbar {
+  text-decoration: none;
+  color: white;
+}
+
+.footernavbarlinks {
+  text-decoration: none;
+  color: #9a9da0;
+}
+
+.footernavbarlinks:hover {
+  text-decoration: none;
+  color: #cccdcf;
+}
+
+.footercopyright {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+#bgimg {
+  display: flex;
+  position: relative;
+  height: 300px;
+  width: 480px;
+}
+#teamimg {
+  position: absolute;
+  left: 170%;
+  width: 350px;
+}

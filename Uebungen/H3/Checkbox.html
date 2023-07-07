@@ -41,50 +41,66 @@
     }
   </style>
 </head>
-<form>
-  <label for="lieblingsspiel"
-    >Welches ist Ihr aktuelles Lieblingsspiel (Computerspiele)?</label
-  >
-  <select id="lieblingsspiel" name="lieblingsspiel">
-    <optgroup label="Standard-Optionen">
-      <option value="">Bitte wählen</option>
-      <option value="Spiel 1">Fortnite</option>
-      <option value="Spiel 2">CS GO</option>
-      <option value="Spiel 3">Minecraft</option>
-      <option value="Spiel 4">Roblox</option>
-      <option value="Spiel 5">Tetris</option>
-      <option value="Spiel 6">Super Mario</option>
-      <option value="Spiel 7">Mario Kart</option>
-      <option value="Spiel 8">Call of Duty</option>
-      <option value="Spiel 9">Fifa 23</option>
-      <option value="Spiel 10">Fall guy's</option>
-    </optgroup>
-  </select>
+<body>
+  <form>
+    <label for="lieblingsspiel"
+      >Welches ist Ihr aktuelles Lieblingsspiel (Computerspiele)?</label
+    >
+    <select id="lieblingsspiel" name="lieblingsspiel">
+      <optgroup label="Standard-Optionen">
+        <option value="">Bitte wählen</option>
+        <option value="Spiel 1">Fortnite</option>
+        <option value="Spiel 2">CS GO</option>
+        <option value="Spiel 3">Minecraft</option>
+        <option value="Spiel 4">Roblox</option>
+        <option value="Spiel 5">Tetris</option>
+        <option value="Spiel 6">Super Mario</option>
+        <option value="Spiel 7">Mario Kart</option>
+        <option value="Spiel 8">Call of Duty</option>
+        <option value="Spiel 9">Fifa 23</option>
+        <option value="Spiel 10">Fall guy's</option>
+      </optgroup>
+      <optgroup label="Escape-Optionen">
+        <option value="Ich spiele keine Spiele">Ich spiele keine Spiele</option>
+        <option value="Andere">Andere:</option>
+      </optgroup>
+    </select>
 
-  <label for="regelmaessig"
-    >Welche der folgenden Spiele spielen Sie regelmäßig?</label
-  >
-  <select id="regelmaessig" name="regelmaessig">
-    <optgroup label="Standard-Optionen">
-      <option value="Spiel A">Fortnite</option>
-      <option value="Spiel B">CS GO</option>
-      <option value="Spiel C">Minecraft</option>
-      <option value="Spiel D">Roblox</option>
-      <option value="Spiel E">Tetris</option>
-      <option value="Spiel F">Super Mario</option>
-      <option value="Spiel G">Mario Kart</option>
-      <option value="Spiel H">Call of Duty</option>
-      <option value="Spiel I">Fifa 23</option>
-      <option value="Spiel J">Fall guy's</option>
-    </optgroup>
-    <optgroup label="Escape-Optionen">
-      <option value="Ich spiele keine Spiele">Ich spiele keine Spiele</option>
-      <option value="Andere">Andere:</option>
-    </optgroup>
-  </select>
+    <label for="regelmaessig"
+      >Welche der folgenden Spiele spielen Sie regelmäßig?</label
+    >
+    <select id="regelmaessig" name="regelmaessig">
+      <optgroup label="Standard-Optionen">
+        <option value="Spiel A">Fortnite</option>
+        <option value="Spiel B">CS GO</option>
+        <option value="Spiel C">Minecraft</option>
+        <option value="Spiel D">Roblox</option>
+        <option value="Spiel E">Tetris</option>
+        <option value="Spiel F">Super Mario</option>
+        <option value="Spiel G">Mario Kart</option>
+        <option value="Spiel H">Call of Duty</option>
+        <option value="Spiel I">Fifa 23</option>
+        <option value="Spiel J">Fall guy's</option>
+      </optgroup>
+      <optgroup label="Escape-Optionen">
+        <option value="Ich spiele keine Spiele">Ich spiele keine Spiele</option>
+        <option value="Andere">Andere:</option>
+      </optgroup>
+    </select>
 
-  <label for="andereSpiel">Bitte geben Sie hier Ihr anderes Spiel ein:</label>
-  <input type="text" id="andereSpiel" name="andereSpiel" />
+    <label for="andereSpiel">Bitte geben Sie hier Ihr anderes Spiel ein:</label>
+    <input type="text" id="andereSpiel" name="andereSpiel" disabled />
 
-  <input type="submit" value="Absenden" />
-</form>
+    <script>
+      document
+        .getElementById("lieblingsspiel")
+        .addEventListener("change", function () {
+          var andereSpielInput = document.getElementById("andereSpiel");
+          andereSpielInput.disabled = !(this.value === "Andere");
+          andereSpielInput.value = "";
+        });
+    </script>
+
+    <input type="submit" value="Absenden" />
+  </form>
+</body>

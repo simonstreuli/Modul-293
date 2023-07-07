@@ -1,6 +1,6 @@
 ### Modul 293 Webauftritt erstellen und veröffentlichen
 ---
-#### H1: HTML-Basics
+### H1: HTML-Basics
 
 **Übung 1**
 In der Aufgabe haben wir zwischen den beiden Paragraphen mehrere Leerzeilen und Leerschläge gemacht. Wenn Sie diesen Code in einem HTML-Editor öffnen oder in einer Webseite anzeigen lassen, sehen Sie möglicherweise keine sichtbaren Änderungen zwischen den Paragrafen.
@@ -14,7 +14,7 @@ In dieser Übung haben wir eine kurze HTML-Seite ohne css geschrieben, die den i
 
 ---
 
-#### D1: Styling mit Css
+### D1: Styling mit Css
 
 **Übung 1**
 In dieser Übung nutzen wir eine geordnete Liste (ol) für die Top 5 Songs. Jeder Song wird als Listenpunkt (li) dargestellt und erhält die Klasse "top-song" für spezifische Formatierungen.
@@ -33,7 +33,7 @@ Um die vier Farbstufen nach innen zu erzeugen, verwenden wir verschiedene CSS-Ei
 
 ---
 
-#### T2: Web-Publishing
+### T2: Web-Publishing
 
 **Übung 1**
 Um ein Webhosting auf bplaced.net oder einem anderen kostenlosen Dienst zu erstellen und eine Webseite manuell zu veröffentlichen, gehe ich wie folgt vor:
@@ -77,8 +77,52 @@ Führe die Datei aus, indem du darauf doppelklickst oder das entsprechende Komma
 
 ---
 
-#### D2:Layouts mit css
+### D2:Layouts mit css
 
 **Übung 1**
 Bei CSS Grid arbeitet man mit Zeilen und Spalten und erzeugt auf diese Weise ein Raster. Innerhalb des Rasters lassen sich die einzelnen Objekte anordnen. 
 
+---
+
+### T4 Übungen
+
+**Übung 1 - npm verwenden (npm)**
+
+- Erstellen Sie ein neues Verzeichnis mit einer leeren `index.html`-Datei.
+- Rufen Sie Ihr Command Prompt auf.
+- Wechseln Sie in das neu erstellte Verzeichnis. Befehl: `cd <Ihr-Verzeichnis>`
+- Initialisieren Sie Ihre Seite. Befehl: `npm init`. Sie werden durch ein Menü geführt und aufgefordert, ein paar Felder auszufüllen. Sie können überall einfach die Eingabetaste drücken.
+- Installieren Sie ein Paket, z.B. lodash. Lodash ist eine Bibliothek von JavaScript-Funktionen, die Ihnen die Programmierung vereinfacht, z.B. Schleifen durch Objekt-Listen. Befehl: `npm install lodash`
+
+**Übung 2 - Applikation neu generieren (npm)**
+
+- Löschen Sie die beiden Objekte `package-lock.json` und `node_modules` aus Übung 1.
+- Rufen Sie nun den Befehl `npm install` auf.
+
+**Übung 3 - Minimierung von HTML-Dateien (npx, html-minifier)**
+
+- Laden Sie die Übungsdateien herunter und entpacken Sie sie in einen Ordner. Die Ordnerstruktur ist ein wenig anders als bisher. Es gibt im Root-Verzeichnis zwei Ordner `src` (für Source oder Quelldateien) und `dist` (für Distribution also Endprodukt). Im Ordner `src` finden Sie drei Dateien.
+- Initialisieren Sie das npm-Projekt.
+- Laden Sie das Paket `html-minifier` herunter bzw. installieren Sie es.
+- Führen Sie den Befehl `npx html-minifier --input-dir ./src --output-dir ./dist --collapse-whitespace --file-ext html` aus.
+
+**Übung 4 - Minimierung von CSS-Dateien (npx, css-minify)**
+
+- Verwenden Sie Ihre Dateien aus Übung 3 oder laden Sie die Quelldateien neu herunter.
+- Sie benötigen das zusätzliche npm-Paket `css-minify`.
+- Führen Sie das Packet via `npx` aus.
+
+**Übung 5 - Build-Script hinzufügen**
+
+- Verwenden Sie Ihre Dateien aus Übung 4 oder laden Sie die Quelldateien neu herunter.
+- Erstellen Sie einen neuen Script-Eintrag in `package.json` mit dem Namen "build" und fügen Sie die beiden Befehle ein. Sie können zwei Befehle hintereinander ausführen, wenn Sie sie mit `&&` verknüpfen.
+
+**Übung 6 - Build-Script erweitern I**
+
+- Wir haben gelernt, dass sie in "Node Scripts" einfach CMD- oder Bash-Befehle ausführen können. Dadurch lässt sich das Problem aus Übung 4 vermeiden.
+
+**Übung 7 - Build-Script erweitern II**
+
+- Nun möchten wir das Build-Script erweitern. Fügen Sie ein neues Script ein mit dem Namen "prebuild". Da Sie nun den gleichen Namen verwenden wie vorher, einfach mit "pre" am Anfang, wird dieses Script automatisch zuerst ausgeführt, wenn Sie das Script für "build" aufrufen.
+
+---

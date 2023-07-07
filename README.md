@@ -126,3 +126,48 @@ Bei CSS Grid arbeitet man mit Zeilen und Spalten und erzeugt auf diese Weise ein
 - Nun möchten wir das Build-Script erweitern. Fügen Sie ein neues Script ein mit dem Namen "prebuild". Da Sie nun den gleichen Namen verwenden wie vorher, einfach mit "pre" am Anfang, wird dieses Script automatisch zuerst ausgeführt, wenn Sie das Script für "build" aufrufen.
 
 ---
+
+### H2 Container
+
+Zusammenfassung der durchgeführten Schritte:
+
+**Übung 1 - News-Seiten untersuchen**
+
+- Wir haben verschiedene Tageszeitungen besucht und die HTML-Tags analysiert.
+- Mithilfe der Developer-Tools des Browsers haben wir den HTML-Code überprüft, um festzustellen, ob die Tags korrekt verwendet wurden.
+
+**Übung 2 - Wireframe für einen Blog**
+
+- Wir haben Wireframes für eine Blog-Website erstellt.
+- Es wurden mindestens zwei Wireframes erstellt: eines für die Liste der Blog-Einträge und eines für den gesamten Blogtext mit Kommentaren.
+- Dabei haben wir Tools wie draw.io oder Papier verwendet, um die Wireframes zu erstellen.
+
+**Übung 3 - HTML-Struktur für einen Blog**
+
+- Wir haben die HTML-Struktur für die erstellten Wireframes aus Übung 2 erstellt.
+- Dabei haben wir die korrekten HTML-Tags verwendet, um die Inhalte entsprechend zu strukturieren.
+- Es wurde beachtet, dass es sich hierbei um die Strukturierung handelt und das Design noch nicht implementiert wurde.
+
+---
+### H3 Formular
+
+Zusammenfassung der durchgeführten Schritte:
+
+**Übung 1 - Radio- und Checkboxfelder**
+
+- Im Rahmen dieser Übung haben wir ein Formular erstellt, das folgende Fragen enthält:
+  - "Welches ist Ihr aktuelles Lieblingsspiel (Computerspiele)" mit einer Auswahl von 10 Spielen.
+  - "Welche der folgenden Spiele spielen Sie regelmäßig?" ebenfalls mit einer Auswahl von 10 Spielen.
+- Wir haben Escape-Optionen hinzugefügt, die angeklickt werden können, wenn keine der Standard-Optionen passen. Dabei haben wir zwei Möglichkeiten berücksichtigt:
+  - "Ich spiele keine Spiele"
+  - "Andere: ", wofür ein zusätzliches Textfeld erforderlich ist.
+
+- Für die Listen haben wir den `<optgroup>`-Tag verwendet, der es ermöglicht, Optionen in einer logischen Gruppe zu gruppieren.
+
+**Übung 2 - Demographische Datenerhebung**
+
+- In dieser Übung haben wir den `<fieldset>`-Tag verwendet, um verwandte Formularelemente zu gruppieren.
+- Wir haben auch den `<optgroup>`-Tag verwendet, um Optionen in einer logischen Gruppe zu gruppieren. Dabei haben wir den Tag selbständig herausgefunden und angewendet.
+- Ein Beispiel für die Verwendung des `<fieldset>`-Tags wurde erstellt.
+
+Insgesamt haben wir in diesen Übungen verschiedene Formularelemente und -tags wie Radio- und Checkboxfelder, `<optgroup>`, `<fieldset>` und das Hochladen von Bildern verwendet und angewendet.

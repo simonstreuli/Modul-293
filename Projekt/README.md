@@ -14,7 +14,7 @@ Unser Projekt besteht darin, eine Unternehmenswebsite zu entwickeln, die Produkt
 
 **Logo**
 
-<img src="./images/logo.jpg" width=50%/>
+<img src="./images/evowater.png" width=50%/>
 
 **Farben**
 

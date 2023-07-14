@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meine Bildergalerie</title>
+    <style>
+      /* Mobile-Styling */
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        text-align: center;
+        font-size: 24px;
+        margin: 20px 0;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 1fr; /* Eine Spalte für Mobilgeräte */
+        grid-gap: 10px;
+      }
+
+      .image {
+        width: 100%;
+        height: auto;
+      }
+
+      /* Tablet-Styling */
+      @media (min-width: 768px) {
+        .grid {
+          grid-template-columns: 1fr 1fr; /* Zwei Spalten für Tablets */
+        }
+      }
+
+      /* Desktop-Styling */
+      @media (min-width: 1024px) {
+        .grid {
+          grid-template-columns: 1fr 1fr 1fr; /* Drei Spalten für Desktops */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Meine Bildergalerie</h1>
+    <div class="grid">
+      <img class="image" src="bild1.jpg">
+      <img class="image" src="bild2.jpg">
+      <img class="image" src="bild3.jpg">
+      <img class="image" src="bild4.jpg">
+      <img class="image" src="bild5.jpg">
+      <img class="image" src="bild6.jpg">
+    </div>
+  </body>
+</html>

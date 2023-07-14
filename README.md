@@ -171,3 +171,23 @@ Zusammenfassung der durchgeführten Schritte:
 - Ein Beispiel für die Verwendung des `<fieldset>`-Tags wurde erstellt.
 
 Insgesamt haben wir in diesen Übungen verschiedene Formularelemente und -tags wie Radio- und Checkboxfelder, `<optgroup>`, `<fieldset>` und das Hochladen von Bildern verwendet und angewendet.
+
+---
+
+### D3 Responsive
+
+**Übung 1 - Pocket Gallery:**
+- Responsive Webseite für eine Bildergalerie mit 6 eigenen Fotos
+- Verwendung des CSS Grid-Layouts
+- Mobile-First-Ansatz mit Media Queries für verschiedene Bildschirmgrößen
+- Fotos werden auf Smartphone (1 Spalte), Tablet (2 Spalten) und Desktop (3 Spalten) angezeigt
+- Titel passt sich ebenfalls an die Bildschirmgröße an
+
+**Übung 2 - Mobile Shop:**
+- Shop-Seite mit 6 verwandten Produkten
+- Verwendung des CSS Grid-Layouts
+- Mobile-First-Ansatz mit Media Queries für verschiedene Bildschirmgrößen
+- Mindestens 5 Breakpoints für optimale Darstellung auf Smartphone, Tablet und Desktop
+- Produkte werden entsprechend der Bildschirmgröße positioniert
+
+---

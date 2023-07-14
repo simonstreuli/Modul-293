@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mobile Shop</title>
+  <style>
+    /* Mobile-Styling */
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 24px;
+      margin: 20px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr; /* Eine Spalte für Mobilgeräte */
+      grid-gap: 10px;
+    }
+
+    .product {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    /* Tablet-Styling */
+    @media (min-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr 1fr; /* Zwei Spalten für Tablets */
+      }
+    }
+
+    /* Desktop-Styling */
+    @media (min-width: 1024px) {
+      .grid {
+        grid-template-columns: 1fr 1fr 1fr; /* Drei Spalten für Desktops */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Mobile Shop</h1>
+  <div class="grid">
+    <div class="product">
+      <h2>Produkt 1</h2>
+      <p>Preis: $10</p>
+      <button>Kaufen</button>
+    </div>
+    <div class="product">
+      <h2>Produkt 2</h2>
+      <p>Preis: $20</p>
+      <button>Kaufen</button>
+    </div>
+    <!-- Weitere Produkte hier einfügen -->
+  </div>
+</body>
+</html>
